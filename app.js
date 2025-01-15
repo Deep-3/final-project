@@ -56,7 +56,7 @@ app.use(methodOverride('_method'));
 
 
 
-const uri ="mongodb://127.0.0.1:27017/myapp";
+const uri ="mongodb+srv://utsav0712:utsav0712@cluster-1.lh3xn9t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1";
 
 if (!uri) {
   console.error('MongoDB URI is not defined. Please check your .env file.');
